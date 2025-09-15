@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medicine Reminder App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>💊 Medicine Reminder</h1>
+  </header>
+
+  <section class="reminder-form">
+    <h2>Set a Reminder</h2>
+    <form id="reminderForm">
+      <input type="text" id="medicineName" placeholder="Medicine Name" required>
+      <input type="time" id="reminderTime" required>
+      <button type="submit">Add Reminder</button>
+    </form>
+  </section>
+
+  <section class="reminder-list">
+    <h2>Your Reminders</h2>
+    <ul id="reminders"></ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Medicine Reminder App</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
